@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Substraction on Jorge&#39;s Blog</title>
-    <link>https://jorgesblog.netlify.com/tags/substraction/</link>
+    <link>/tags/substraction/</link>
     <description>Recent content in Substraction on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jorgesblog.netlify.com/tags/substraction/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/substraction/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Substraction</title>
-      <link>https://jorgesblog.netlify.com/post/substraction/</link>
+      <link>/post/substraction/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/post/substraction/</guid>
+      <guid>/post/substraction/</guid>
       <description>Let’s try substracting:
 x&amp;lt;-12y&amp;lt;-4x-y## [1] 8</description>
     </item>

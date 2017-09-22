@@ -22,7 +22,7 @@ using dplyr, and using ggplot2, with ggiraph to make it interactive.
 
 First let's load some packages:
 
-```{r}
+```{r warning=FALSE, message=FALSE}
 library(Lahman)
 library(dplyr)
 library(ggplot2)

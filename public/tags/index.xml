@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jorge&#39;s Blog</title>
-    <link>https://jorgesblog.netlify.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jorgesblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Filter</title>
-      <link>https://jorgesblog.netlify.com/tags/filter/</link>
+      <link>/tags/filter/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
+      <guid>/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggiraph</title>
-      <link>https://jorgesblog.netlify.com/tags/ggiraph/</link>
+      <link>/tags/ggiraph/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/ggiraph/</guid>
+      <guid>/tags/ggiraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot2</title>
-      <link>https://jorgesblog.netlify.com/tags/ggplot2/</link>
+      <link>/tags/ggplot2/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/ggplot2/</guid>
+      <guid>/tags/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Select</title>
-      <link>https://jorgesblog.netlify.com/tags/select/</link>
+      <link>/tags/select/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/select/</guid>
+      <guid>/tags/select/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substraction</title>
-      <link>https://jorgesblog.netlify.com/tags/substraction/</link>
+      <link>/tags/substraction/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/substraction/</guid>
+      <guid>/tags/substraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summarize</title>
-      <link>https://jorgesblog.netlify.com/tags/summarize/</link>
+      <link>/tags/summarize/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/summarize/</guid>
+      <guid>/tags/summarize/</guid>
       <description></description>
     </item>
     

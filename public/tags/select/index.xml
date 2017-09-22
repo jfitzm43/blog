@@ -2,33 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Select on Jorge&#39;s Blog</title>
-    <link>https://jorgesblog.netlify.com/tags/select/</link>
+    <link>/tags/select/</link>
     <description>Recent content in Select on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jorgesblog.netlify.com/tags/select/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/select/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scatter Plot in Rstudio</title>
-      <link>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</link>
+      <link>/post/scatter-plot-in-rstudio/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</guid>
+      <guid>/post/scatter-plot-in-rstudio/</guid>
       <description>In this class we will learn how to create a scatter plot with the Lahman database, using dplyr, and using ggplot2, with ggiraph to make it interactive.
 First let’s load some packages:
-library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)Using dplyr, we want to get all the players with 400 or more HR in their careers, and the total amount of SO in their careers.</description>
+library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)Using dplyr, we want to get all the players with 400 or more HR in their careers, and the total amount of SO in their careers.
+df&amp;lt;-Batting%&amp;gt;%group_by(playerID)%&amp;gt;%summarize(career_HR=sum(HR), career_SO=sum(SO))%&amp;gt;%filter(career_HR&amp;gt;=400 )df## # A tibble: 55 x 3## playerID career_HR career_SO## &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt;## 1 aaronha01 755 1383## 2 bagweje01 449 1558## 3 bankser01 512 1236## 4 beltrad01 445 1584## 5 beltrca01 421 1693## 6 bondsba01 762 1539## 7 cabremi01 446 1516## 8 cansejo01 462 1942## 9 dawsoan01 438 1509## 10 delgaca01 473 1745## # .</description>
     </item>
     
     <item>
       <title>The Lahman Database</title>
-      <link>https://jorgesblog.netlify.com/post/the-lahman-database/</link>
+      <link>/post/the-lahman-database/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/post/the-lahman-database/</guid>
+      <guid>/post/the-lahman-database/</guid>
       <description>Let’s work with the Lahman baseball database in RStudio.
 First, let’s load some packages:
 library(Lahman)library(dplyr)Now let’s run some code:
