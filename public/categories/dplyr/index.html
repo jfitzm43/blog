@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Categories &middot; Jorge&#39;s Blog</title>
+        <title>Dplyr &middot; Jorge&#39;s Blog</title>
         <meta name="author">
         <meta name="description" content="Notes of Data Science Communication and Collaboration Class.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,28 +41,124 @@
 
 <div class="container clearfix">
     <main role="main" class="content">
-    <a class="btn home" href="https://jorgesblog.netlify.com/" title="Back to home">&laquo; Back to home</a>
-    <h2>Categories:</a>
-    <ul>
-     
-        <li>
-            <a href="mathematics">mathematics (2)</a>
-        </li>
+        <a class="btn home" href="https://jorgesblog.netlify.com/" title="Back to home">&laquo; Back to home</a>
+        
+        
+            <article class="post">
     
-        <li>
-            <a href="dplyr">dplyr (1)</a>
-        </li>
+<h1><a href="https://jorgesblog.netlify.com/post/the-lahman-database/" title="The Lahman Database">The Lahman Database</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.22">2017.09.22</time>
+
+    &middot; Tagged in
+        
+        <a href="https://jorgesblog.netlify.com/tags/filter">filter</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/select">select</a>
+        
     
-        <li>
-            <a href="lahman">lahman (1)</a>
-        </li>
-    
-        <li>
-            <a href="rstudio">rstudio (1)</a>
-        </li>
-    
-    </ul>
+
+</span>
+</footer>
+
+    <p>Let’s work with the Lahman baseball database in RStudio.
+First, let’s load some packages:
+library(Lahman)
+library(dplyr)
+Now let’s run some code:
+Batting%&gt;%
+select(playerID,teamID,yearID,HR)%&gt;%
+filter(HR&gt;50)</p>
+
+<h2 id="playerid-teamid-yearid-hr">playerID teamID yearID HR</h2>
+
+<h2 id="1-ruthba01-nya-1920-54">1 ruthba01 NYA 1920 54</h2>
+
+<h2 id="2-ruthba01-nya-1921-59">2 ruthba01 NYA 1921 59</h2>
+
+<h2 id="3-ruthba01-nya-1927-60">3 ruthba01 NYA 1927 60</h2>
+
+<h2 id="4-ruthba01-nya-1928-54">4 ruthba01 NYA 1928 54</h2>
+
+<h2 id="5-wilsoha01-chn-1930-56">5 wilsoha01 CHN 1930 56</h2>
+
+<h2 id="6-foxxji01-pha-1932-58">6 foxxji01 PHA 1932 58</h2>
+
+<h2 id="7-greenha01-det-1938-58">7 greenha01 DET 1938 58</h2>
+
+<h2 id="8-kinerra01-pit-1947-51">8 kinerra01 PIT 1947 51</h2>
+
+<h2 id="9-mizejo01-ny1-1947-51">9 mizejo01 NY1 1947 51</h2>
+
+<h2 id="10-kinerra01-pit-1949-54">10 kinerra01 PIT 1949 54</h2>
+
+<h2 id="11-mayswi01-ny1-1955-51">11 mayswi01 NY1 1955 51</h2>
+
+<h2 id="12-mantlmi01-nya-1956-52">12 mantlmi01 NYA 1956 52</h2>
+
+<h2 id="13-mantlmi01-nya-1961-54">13 mantlmi01 NYA 1961 54</h2>
+
+<h2 id="14-marisro01-nya-1961-61">14 marisro01 NYA 1961 61</h2>
+
+<h2 id="15-mayswi01-sfn-1965-52">15 mayswi01 SFN 1965 52</h2>
+
+<h2 id="16-fostege01-cin-1977-52">16 fostege01 CIN 1977 52</h2>
+
+<h2 id="17-fieldce01-det-1990-51">17 fieldce01 DET 1990 51</h2>
+
+<h2 id="18-mcgwima01-oak-1996-52">18 mcgwima01 OAK 1996 52</h2>
+
+<h2 id="19-griffke02-sea-1997-56">19 griffke02 SEA 1997 56</h2>
+
+<h2 id="20-griffke02-sea-1998-56">20 griffke02 SEA 1998 56</h2>
+
+<h2 id="21-mcgwima01-sln-1998-70">21 mcgwima01 SLN 1998 70</h2>
+
+<h2 id="22-sosasa01-chn-1998-66">22 sosasa01 CHN 1998 66</h2>
+
+<h2 id="23-mcgwima01-sln-1999-65">23 mcgwima01 SLN 1999 65</h2>
+
+<h2 id="24-sosasa01-chn-1999-63">24 sosasa01 CHN 1999 63</h2>
+
+<h2 id="25-bondsba01-sfn-2001-73">25 bondsba01 SFN 2001 73</h2>
+
+<h2 id="26-gonzalu01-ari-2001-57">26 gonzalu01 ARI 2001 57</h2>
+
+<h2 id="27-rodrial01-tex-2001-52">27 rodrial01 TEX 2001 52</h2>
+
+<h2 id="28-sosasa01-chn-2001-64">28 sosasa01 CHN 2001 64</h2>
+
+<h2 id="29-rodrial01-tex-2002-57">29 rodrial01 TEX 2002 57</h2>
+
+<h2 id="30-thomeji01-cle-2002-52">30 thomeji01 CLE 2002 52</h2>
+
+<h2 id="31-jonesan01-atl-2005-51">31 jonesan01 ATL 2005 51</h2>
+
+<h2 id="32-howarry01-phi-2006-58">32 howarry01 PHI 2006 58</h2>
+
+<h2 id="33-ortizda01-bos-2006-54">33 ortizda01 BOS 2006 54</h2>
+
+<h2 id="34-rodrial01-nya-2007-54">34 rodrial01 NYA 2007 54</h2>
+
+<h2 id="35-bautijo02-tor-2010-54">35 bautijo02 TOR 2010 54</h2>
+
+<h2 id="36-davisch02-bal-2013-53">36 davisch02 BAL 2013 53</h2>
+&hellip;</p>
+    <a href="https://jorgesblog.netlify.com/post/the-lahman-database/" title="The Lahman Database">Read more &raquo;</a>
+</article>
+
+        
+        <div class="pagination">
+<nav>
+
+	<p class="counter">Page 1 of 1</p>
+
+
+</nav>
+</div>
+
     </main>
+
     <aside class="author">
   <img class="profile-image" src="https://jorgesblog.netlify.com/img/profile.jpg" alt="Jorge Fitzmaurice Torres" style="width:100px;height:150px;" />
   <p class="name">by 

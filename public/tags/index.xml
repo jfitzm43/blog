@@ -7,62 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jorgesblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo</title>
-      <link>https://jorgesblog.netlify.com/tags/hugo/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Addition</title>
+      <link>https://jorgesblog.netlify.com/tags/addition/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/hugo/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/addition/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jekyll</title>
-      <link>https://jorgesblog.netlify.com/tags/jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Filter</title>
+      <link>https://jorgesblog.netlify.com/tags/filter/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/jekyll/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Migration</title>
-      <link>https://jorgesblog.netlify.com/tags/migration/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Select</title>
+      <link>https://jorgesblog.netlify.com/tags/select/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/migration/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/select/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Plot</title>
-      <link>https://jorgesblog.netlify.com/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Substraction</title>
+      <link>https://jorgesblog.netlify.com/tags/substraction/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://jorgesblog.netlify.com/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>https://jorgesblog.netlify.com/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/tags/regression/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/substraction/</guid>
       <description></description>
     </item>
     

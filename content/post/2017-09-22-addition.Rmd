@@ -1,0 +1,19 @@
+---
+title: Addition
+author: Jorge Fitzmaurice Torres
+date: '2017-09-22'
+slug: addition
+categories:
+  - Mathematics
+tags:
+  - addition
+---
+
+Let's try to adding numbers:
+
+```{r}
+x<-4
+y<-10
+x+y
+```
+

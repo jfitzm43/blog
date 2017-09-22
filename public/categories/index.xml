@@ -12,11 +12,38 @@
     
     
     <item>
-      <title>R</title>
-      <link>https://jorgesblog.netlify.com/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Dplyr</title>
+      <link>https://jorgesblog.netlify.com/categories/dplyr/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/categories/r/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lahman</title>
+      <link>https://jorgesblog.netlify.com/categories/lahman/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/categories/lahman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://jorgesblog.netlify.com/categories/mathematics/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/categories/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstudio</title>
+      <link>https://jorgesblog.netlify.com/categories/rstudio/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/categories/rstudio/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,19 @@
+---
+title: Substraction
+author: Jorge Fitzmaurice Torres
+date: '2017-09-22'
+slug: substraction
+categories:
+  - Mathematics
+tags:
+  - substraction
+---
+
+Let's try substracting:
+
+```{r}
+x<-12
+y<-4
+x-y
+```
+

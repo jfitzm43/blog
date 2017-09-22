@@ -1,0 +1,31 @@
+---
+title: The Lahman Database
+author: Jorge Fitzmaurice Torres
+date: '2017-09-22'
+slug: the-lahman-database
+categories:
+  - RStudio
+  - dplyr
+  - Lahman
+tags:
+  - filter
+  - select
+---
+
+Let's work with the Lahman baseball database in RStudio.
+
+First, let's load some packages:
+
+```{r warning=FALSE, message=FALSE}
+library(Lahman)
+library(dplyr)
+```
+
+Now let's run some code:
+
+```{r}
+Batting%>%
+  select(playerID,teamID,yearID,HR)%>%
+  filter(HR>50)
+```
+

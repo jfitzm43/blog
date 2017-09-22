@@ -1,0 +1,61 @@
+---
+title: The Lahman Database
+author: Jorge Fitzmaurice Torres
+date: '2017-09-22'
+slug: the-lahman-database
+categories:
+  - RStudio
+  - dplyr
+  - Lahman
+tags:
+  - filter
+  - select
+---
+
+
+
+<p>Let’s work with the Lahman baseball database in RStudio.</p>
+<p>First, let’s load some packages:</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)</code></pre>
+<p>Now let’s run some code:</p>
+<pre class="r"><code>Batting%&gt;%
+  select(playerID,teamID,yearID,HR)%&gt;%
+  filter(HR&gt;50)</code></pre>
+<pre><code>##     playerID teamID yearID HR
+## 1   ruthba01    NYA   1920 54
+## 2   ruthba01    NYA   1921 59
+## 3   ruthba01    NYA   1927 60
+## 4   ruthba01    NYA   1928 54
+## 5  wilsoha01    CHN   1930 56
+## 6   foxxji01    PHA   1932 58
+## 7  greenha01    DET   1938 58
+## 8  kinerra01    PIT   1947 51
+## 9   mizejo01    NY1   1947 51
+## 10 kinerra01    PIT   1949 54
+## 11  mayswi01    NY1   1955 51
+## 12 mantlmi01    NYA   1956 52
+## 13 mantlmi01    NYA   1961 54
+## 14 marisro01    NYA   1961 61
+## 15  mayswi01    SFN   1965 52
+## 16 fostege01    CIN   1977 52
+## 17 fieldce01    DET   1990 51
+## 18 mcgwima01    OAK   1996 52
+## 19 griffke02    SEA   1997 56
+## 20 griffke02    SEA   1998 56
+## 21 mcgwima01    SLN   1998 70
+## 22  sosasa01    CHN   1998 66
+## 23 mcgwima01    SLN   1999 65
+## 24  sosasa01    CHN   1999 63
+## 25 bondsba01    SFN   2001 73
+## 26 gonzalu01    ARI   2001 57
+## 27 rodrial01    TEX   2001 52
+## 28  sosasa01    CHN   2001 64
+## 29 rodrial01    TEX   2002 57
+## 30 thomeji01    CLE   2002 52
+## 31 jonesan01    ATL   2005 51
+## 32 howarry01    PHI   2006 58
+## 33 ortizda01    BOS   2006 54
+## 34 rodrial01    NYA   2007 54
+## 35 bautijo02    TOR   2010 54
+## 36 davisch02    BAL   2013 53</code></pre>

@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jorge&#39;s Blog</title>
-    <link>https://jorgesblog.netlify.com/post/</link>
-    <description>Recent content in Posts on Jorge&#39;s Blog</description>
+    <title>Select on Jorge&#39;s Blog</title>
+    <link>https://jorgesblog.netlify.com/tags/select/</link>
+    <description>Recent content in Select on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jorgesblog.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jorgesblog.netlify.com/tags/select/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Addition</title>
-      <link>https://jorgesblog.netlify.com/post/addition/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/post/addition/</guid>
-      <description>Let’s try to adding numbers:
-x&amp;lt;-4y&amp;lt;-10x+y## [1] 14</description>
-    </item>
-    
-    <item>
-      <title>Substraction</title>
-      <link>https://jorgesblog.netlify.com/post/substraction/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/post/substraction/</guid>
-      <description>Let’s try substracting:
-x&amp;lt;-12y&amp;lt;-4x-y## [1] 8</description>
-    </item>
     
     <item>
       <title>The Lahman Database</title>
