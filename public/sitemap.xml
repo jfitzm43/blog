@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jorgesblog.netlify.com/post/addition/</loc>
+    <loc>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -15,12 +15,6 @@
   <url>
     <loc>https://jorgesblog.netlify.com/post/the-lahman-database/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jorgesblog.netlify.com/tags/addition/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -36,6 +30,30 @@
   
   <url>
     <loc>https://jorgesblog.netlify.com/tags/filter/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/ggiraph/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/ggiraph/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/ggplot2/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/ggplot2/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -78,6 +96,12 @@
   
   <url>
     <loc>https://jorgesblog.netlify.com/tags/substraction/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/summarize/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

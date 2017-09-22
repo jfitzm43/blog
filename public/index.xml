@@ -13,13 +13,14 @@
     
     
     <item>
-      <title>Addition</title>
-      <link>https://jorgesblog.netlify.com/post/addition/</link>
+      <title>Scatter Plot in Rstudio</title>
+      <link>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jorgesblog.netlify.com/post/addition/</guid>
-      <description>Let’s try to adding numbers:
-x&amp;lt;-4y&amp;lt;-10x+y## [1] 14</description>
+      <guid>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</guid>
+      <description>In this class we will learn how to create a scatter plot with the Lahman database, using dplyr, and using ggplot2, with ggiraph to make it interactive.
+First let’s load some packages:
+library(Lahman)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(ggiraph)Using dplyr, we want to get all the players with 400 or more HR in their careers, and the total amount of SO in their careers.</description>
     </item>
     
     <item>

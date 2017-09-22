@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>Addition</title>
-      <link>https://jorgesblog.netlify.com/post/addition/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/post/addition/</guid>
-      <description>Let’s try to adding numbers:
-x&amp;lt;-4y&amp;lt;-10x+y## [1] 14</description>
-    </item>
-    
-    <item>
       <title>Substraction</title>
       <link>https://jorgesblog.netlify.com/post/substraction/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>

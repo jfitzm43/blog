@@ -13,20 +13,29 @@
     
     
     <item>
-      <title>Addition</title>
-      <link>https://jorgesblog.netlify.com/tags/addition/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jorgesblog.netlify.com/tags/addition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Filter</title>
       <link>https://jorgesblog.netlify.com/tags/filter/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggiraph</title>
+      <link>https://jorgesblog.netlify.com/tags/ggiraph/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/ggiraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>https://jorgesblog.netlify.com/tags/ggplot2/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/ggplot2/</guid>
       <description></description>
     </item>
     
@@ -45,6 +54,15 @@
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/substraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summarize</title>
+      <link>https://jorgesblog.netlify.com/tags/summarize/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/summarize/</guid>
       <description></description>
     </item>
     
