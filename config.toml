@@ -1,6 +1,6 @@
-baseurl = "https://example.org/"
+baseurl = "https://jorgesblog.netlify.com/"
 languageCode = "en-us"
-title = "John Doe's blog"
+title = "Jorge's Blog"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
@@ -13,13 +13,13 @@ theme = "hugo-minimalist-theme"
 # with the hugo server command
 
 [params]
-    site_author = "John Doe"
-    site_description = "The awesome blog of John Doe."
+    site_author = "Jorge Fitzmaurice Torres"
+    site_description = "Notes of Data Science Communication and Collaboration Class."
     location = "Earth"
     # Link custom assets relative to /static
     avatar = "img/profile-image.png"
     header_background = "img/desk.jpg"
-    header_title = "Customizable header title"
+    header_title = "Jorge's Data Science Blog"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
     custom_js  = []
@@ -31,11 +31,11 @@ theme = "hugo-minimalist-theme"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "spf13"
-    facebook  = ""
-    linkedin  = ""
+    twitter   = "pichif"
+    facebook  = "pichi.fitzmaurice"
+    linkedin  = "jorge-fitzmaurice-torres-279b22131"
     behance   = ""
     dribbble  = ""
     instagram = ""
-    github    = "digitalcraftsman"
+    github    = "jfitzm43"
     gplus     = ""
