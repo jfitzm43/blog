@@ -15,10 +15,10 @@ theme = "hugo-minimalist-theme"
 [params]
     site_author = "Jorge Fitzmaurice Torres"
     site_description = "Notes of Data Science Communication and Collaboration Class."
-    location = "Earth"
+    location = "Erie, PA"
     # Link custom assets relative to /static
-    avatar = "img/profile-image.png"
-    header_background = "img/desk.jpg"
+    avatar = "img/profile.jpg"  
+    header_background = "img/earth.jpg"
     header_title = "Jorge's Data Science Blog"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
