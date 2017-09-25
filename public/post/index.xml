@@ -2,22 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jorge&#39;s Blog</title>
-    <link>/post/</link>
+    <link>https://jorgesblog.netlify.com/post/</link>
     <description>Recent content in Posts on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jorgesblog.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bar Plots in RStudio</title>
+      <link>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</guid>
+      <description>In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:
+First let’s load some packages:
+library(Lahman)library(dplyr)library(ggplot2)Now let’s create a data frame to be able to work with ggplot later.
+df&amp;lt;-Teams%&amp;gt;%filter(yearID==1980)%&amp;gt;%select(name,HR)%&amp;gt;%arrange(HR)head(df)## name HR## 1 New York Mets 61## 2 San Diego Padres 67## 3 Houston Astros 75## 4 San Francisco Giants 80## 5 Cleveland Indians 89## 6 Chicago White Sox 91The column name is a character, and we need to make it a factor (category) in order to be able to put the bar plot in order:</description>
+    </item>
+    
+    <item>
+      <title>Histograms in RStudio</title>
+      <link>https://jorgesblog.netlify.com/post/histograms-in-rstudio/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/post/histograms-in-rstudio/</guid>
+      <description>In this section we will work with the Lahman database to create a histogram with ggplot2.
+First let’s load some packages.
+library(Lahman)library(dplyr)library(ggplot2)We create a data frame with dplyr where we filter out the NA’s and only select the weight on the players.
+df&amp;lt;-Master%&amp;gt;%filter(!is.na(weight))%&amp;gt;%select(weight)head(df)## weight## 1 215## 2 180## 3 190## 4 190## 5 184## 6 220Now we create a histogram in ggplot using the following code:</description>
+    </item>
+    
+    <item>
       <title>Scatter Plot in Rstudio</title>
-      <link>/post/scatter-plot-in-rstudio/</link>
+      <link>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/scatter-plot-in-rstudio/</guid>
+      <guid>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</guid>
       <description>In this class we will learn how to create a scatter plot with the Lahman database, using dplyr, and using ggplot2, with ggiraph to make it interactive.
 First let’s load some packages:
 library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)Using dplyr, we want to get all the players with 400 or more HR in their careers, and the total amount of SO in their careers.
@@ -26,20 +50,20 @@ df&amp;lt;-Batting%&amp;gt;%group_by(playerID)%&amp;gt;%summarize(career_HR=su
     
     <item>
       <title>Substraction</title>
-      <link>/post/substraction/</link>
+      <link>https://jorgesblog.netlify.com/post/substraction/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/substraction/</guid>
+      <guid>https://jorgesblog.netlify.com/post/substraction/</guid>
       <description>Let’s try substracting:
 x&amp;lt;-12y&amp;lt;-4x-y## [1] 8</description>
     </item>
     
     <item>
       <title>The Lahman Database</title>
-      <link>/post/the-lahman-database/</link>
+      <link>https://jorgesblog.netlify.com/post/the-lahman-database/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/the-lahman-database/</guid>
+      <guid>https://jorgesblog.netlify.com/post/the-lahman-database/</guid>
       <description>Let’s work with the Lahman baseball database in RStudio.
 First, let’s load some packages:
 library(Lahman)library(dplyr)Now let’s run some code:

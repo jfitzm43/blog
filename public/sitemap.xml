@@ -3,112 +3,146 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/scatter-plot-in-rstudio/</loc>
+    <loc>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/post/histograms-in-rstudio/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/substraction/</loc>
+    <loc>https://jorgesblog.netlify.com/post/substraction/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/the-lahman-database/</loc>
+    <loc>https://jorgesblog.netlify.com/post/the-lahman-database/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://jorgesblog.netlify.com/tags/bar/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/dplyr/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <loc>https://jorgesblog.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/filter/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <loc>https://jorgesblog.netlify.com/categories/dplyr/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ggiraph/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <loc>https://jorgesblog.netlify.com/tags/factor/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ggiraph/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <loc>https://jorgesblog.netlify.com/tags/filter/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ggplot2/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/ggplot2/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/lahman/</loc>
+    <loc>https://jorgesblog.netlify.com/tags/ggiraph/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/mathematics/</loc>
+    <loc>https://jorgesblog.netlify.com/categories/ggiraph/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/ggplot2/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/ggplot2/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/histogram/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/lahman/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/mathematics/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://jorgesblog.netlify.com/post/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/categories/rstudio/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/select/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/str/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorgesblog.netlify.com/tags/substraction/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/rstudio/</loc>
+    <loc>https://jorgesblog.netlify.com/tags/summarize/</loc>
     <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/select/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/substraction/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/summarize/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+    <loc>https://jorgesblog.netlify.com/tags/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

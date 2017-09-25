@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summarize on Jorge&#39;s Blog</title>
-    <link>/tags/summarize/</link>
+    <link>https://jorgesblog.netlify.com/tags/summarize/</link>
     <description>Recent content in Summarize on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/summarize/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jorgesblog.netlify.com/tags/summarize/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scatter Plot in Rstudio</title>
-      <link>/post/scatter-plot-in-rstudio/</link>
+      <link>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/scatter-plot-in-rstudio/</guid>
+      <guid>https://jorgesblog.netlify.com/post/scatter-plot-in-rstudio/</guid>
       <description>In this class we will learn how to create a scatter plot with the Lahman database, using dplyr, and using ggplot2, with ggiraph to make it interactive.
 First let’s load some packages:
 library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)Using dplyr, we want to get all the players with 400 or more HR in their careers, and the total amount of SO in their careers.

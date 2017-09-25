@@ -2,67 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jorge&#39;s Blog</title>
-    <link>/tags/</link>
+    <link>https://jorgesblog.netlify.com/tags/</link>
     <description>Recent content in Tags on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jorgesblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Filter</title>
-      <link>/tags/filter/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Bar</title>
+      <link>https://jorgesblog.netlify.com/tags/bar/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/filter/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor</title>
+      <link>https://jorgesblog.netlify.com/tags/factor/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filter</title>
+      <link>https://jorgesblog.netlify.com/tags/filter/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggiraph</title>
-      <link>/tags/ggiraph/</link>
+      <link>https://jorgesblog.netlify.com/tags/ggiraph/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggiraph/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/ggiraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot2</title>
-      <link>/tags/ggplot2/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/tags/ggplot2/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggplot2/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histogram</title>
+      <link>https://jorgesblog.netlify.com/tags/histogram/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/histogram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Select</title>
-      <link>/tags/select/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/tags/select/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/select/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/select/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Str</title>
+      <link>https://jorgesblog.netlify.com/tags/str/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/str/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substraction</title>
-      <link>/tags/substraction/</link>
+      <link>https://jorgesblog.netlify.com/tags/substraction/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/substraction/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/substraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summarize</title>
-      <link>/tags/summarize/</link>
+      <link>https://jorgesblog.netlify.com/tags/summarize/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/summarize/</guid>
+      <guid>https://jorgesblog.netlify.com/tags/summarize/</guid>
       <description></description>
     </item>
     

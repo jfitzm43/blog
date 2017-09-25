@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jorge&#39;s Blog</title>
-    <link>/categories/</link>
+    <link>https://jorgesblog.netlify.com/categories/</link>
     <description>Recent content in Categories on Jorge&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jorgesblog.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dplyr</title>
-      <link>/categories/dplyr/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/categories/dplyr/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/dplyr/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/dplyr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggiraph</title>
-      <link>/categories/ggiraph/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/categories/ggiraph/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/ggiraph/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/ggiraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot2</title>
-      <link>/categories/ggplot2/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/categories/ggplot2/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/ggplot2/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lahman</title>
-      <link>/categories/lahman/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/categories/lahman/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/lahman/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/lahman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematics</title>
-      <link>/categories/mathematics/</link>
+      <link>https://jorgesblog.netlify.com/categories/mathematics/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/mathematics/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/mathematics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>/categories/rstudio/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://jorgesblog.netlify.com/categories/rstudio/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/rstudio/</guid>
+      <guid>https://jorgesblog.netlify.com/categories/rstudio/</guid>
       <description></description>
     </item>
     

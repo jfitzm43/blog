@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factor on Jorge&#39;s Blog</title>
+    <link>https://jorgesblog.netlify.com/tags/factor/</link>
+    <description>Recent content in Factor on Jorge&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jorgesblog.netlify.com/tags/factor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bar Plots in RStudio</title>
+      <link>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</guid>
+      <description>In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:
+First let’s load some packages:
+library(Lahman)library(dplyr)library(ggplot2)Now let’s create a data frame to be able to work with ggplot later.
+df&amp;lt;-Teams%&amp;gt;%filter(yearID==1980)%&amp;gt;%select(name,HR)%&amp;gt;%arrange(HR)head(df)## name HR## 1 New York Mets 61## 2 San Diego Padres 67## 3 Houston Astros 75## 4 San Francisco Giants 80## 5 Cleveland Indians 89## 6 Chicago White Sox 91The column name is a character, and we need to make it a factor (category) in order to be able to put the bar plot in order:</description>
+    </item>
+    
+  </channel>
+</rss>

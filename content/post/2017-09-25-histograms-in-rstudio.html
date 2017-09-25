@@ -1,0 +1,42 @@
+---
+title: Histograms in RStudio
+author: Jorge Fitzmaurice Torres
+date: '2017-09-25'
+slug: histograms-in-rstudio
+categories:
+  - dplyr
+  - ggplot2
+  - Lahman
+  - RStudio
+tags:
+  - ggplot2
+  - select
+  - filter
+  - histogram
+---
+
+
+
+<p>In this section we will work with the Lahman database to create a histogram with ggplot2.</p>
+<p>First let’s load some packages.</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)</code></pre>
+<p>We create a data frame with dplyr where we filter out the NA’s and only select the weight on the players.</p>
+<pre class="r"><code>df&lt;-Master%&gt;%
+  filter(!is.na(weight))%&gt;%
+  select(weight)
+
+head(df)</code></pre>
+<pre><code>##   weight
+## 1    215
+## 2    180
+## 3    190
+## 4    190
+## 5    184
+## 6    220</code></pre>
+<p>Now we create a histogram in ggplot using the following code:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=df,aes(x=weight),color=&quot;white&quot;,fill=&#39;blue&#39;,bins=25)+
+  ggtitle(&quot;Baseball Player Weights&quot;)</code></pre>
+<p><img src="/post/2017-09-25-histograms-in-rstudio_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>

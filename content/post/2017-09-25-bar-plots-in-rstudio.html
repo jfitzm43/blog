@@ -1,0 +1,67 @@
+---
+title: Bar Plots in RStudio
+author: Jorge Fitzmaurice Torres
+date: '2017-09-25'
+slug: bar-plots-in-rstudio
+categories:
+  - ggiraph
+  - Lahman
+  - ggplot2
+  - RStudio
+tags:
+  - filter
+  - ggplot2
+  - select
+  - bar
+  - str
+  - factor
+---
+
+
+
+<p>In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:</p>
+<p>First let’s load some packages:</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)</code></pre>
+<p>Now let’s create a data frame to be able to work with ggplot later.</p>
+<pre class="r"><code>df&lt;-Teams%&gt;%
+  filter(yearID==1980)%&gt;%
+  select(name,HR)%&gt;%
+  arrange(HR)
+
+head(df)</code></pre>
+<pre><code>##                   name HR
+## 1        New York Mets 61
+## 2     San Diego Padres 67
+## 3       Houston Astros 75
+## 4 San Francisco Giants 80
+## 5    Cleveland Indians 89
+## 6    Chicago White Sox 91</code></pre>
+<p>The column name is a character, and we need to make it a factor (category) in order to be able to put the bar plot in order:</p>
+<pre class="r"><code>str(df$name)</code></pre>
+<pre><code>##  chr [1:26] &quot;New York Mets&quot; &quot;San Diego Padres&quot; &quot;Houston Astros&quot; ...</code></pre>
+<pre class="r"><code>df$name&lt;-factor(df$name, levels=df$name)
+
+str(df$name)</code></pre>
+<pre><code>##  Factor w/ 26 levels &quot;New York Mets&quot;,..: 1 2 3 4 5 6 7 8 9 10 ...</code></pre>
+<p>This is to check that the names are in the order we want it to be:</p>
+<pre class="r"><code>levels(df$name)</code></pre>
+<pre><code>##  [1] &quot;New York Mets&quot;         &quot;San Diego Padres&quot;     
+##  [3] &quot;Houston Astros&quot;        &quot;San Francisco Giants&quot; 
+##  [5] &quot;Cleveland Indians&quot;     &quot;Chicago White Sox&quot;    
+##  [7] &quot;Minnesota Twins&quot;       &quot;St. Louis Cardinals&quot;  
+##  [9] &quot;Seattle Mariners&quot;      &quot;California Angels&quot;    
+## [11] &quot;Chicago Cubs&quot;          &quot;Cincinnati Reds&quot;      
+## [13] &quot;Montreal Expos&quot;        &quot;Kansas City Royals&quot;   
+## [15] &quot;Pittsburgh Pirates&quot;    &quot;Philadelphia Phillies&quot;
+## [17] &quot;Texas Rangers&quot;         &quot;Toronto Blue Jays&quot;    
+## [19] &quot;Oakland Athletics&quot;     &quot;Detroit Tigers&quot;       
+## [21] &quot;Atlanta Braves&quot;        &quot;Los Angeles Dodgers&quot;  
+## [23] &quot;Baltimore Orioles&quot;     &quot;Boston Red Sox&quot;       
+## [25] &quot;New York Yankees&quot;      &quot;Milwaukee Brewers&quot;</code></pre>
+<p>Now we create the bar plot with the following code:</p>
+<pre class="r"><code>ggplot()+
+  geom_bar(data=df,aes(x=name,y=HR),stat=&quot;identity&quot;,color=&quot;blue&quot;,fill=&quot;white&quot;)+
+  coord_flip()</code></pre>
+<p><img src="/post/2017-09-25-bar-plots-in-rstudio_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
