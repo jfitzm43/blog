@@ -1,0 +1,88 @@
+---
+title: Time Series
+author: Jorge Fitzmaurice Torres
+date: '2017-09-27'
+slug: time-series
+categories:
+  - ggiraph
+  - dplyr
+  - ggplot2
+  - Lahman
+  - RStudio
+tags:
+  - filter
+  - ggiraph
+  - ggplot2
+  - select
+  - str
+  - geom_line
+  - geom_point
+  - timeSeries
+---
+
+In this post we will make some time series interactive graphics for some of the best players in the MLB history.
+
+First we need to load some packages:
+
+```{r warning=FALSE, message=FALSE}
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+```
+
+Then we need to extract the data we want to use:
+
+```{r}
+df<-Batting%>%
+  filter(playerID=='ruthba01')%>%
+  select(yearID,HR)
+
+df
+```
+
+The last step is to create the interactive visualization:
+
+```{r}
+g<-ggplot()+
+  geom_line(data=df, aes(x=yearID,y=HR))+
+  geom_point_interactive(data=df, aes(x=yearID, y=HR, tooltip=HR, data_id=yearID))+
+  ggtitle("Babe Ruth Career HR")+
+  ylab("Year")
+
+ggiraph(code=print(g),hover_css = "fill:white; stroke:red")
+```
+
+We can do with another player by changing the playerID:
+
+
+```{r}
+df<-Batting%>%
+  filter(playerID=='aaronha01')%>%
+  select(yearID,HR)
+
+g<-ggplot()+
+  geom_line(data=df, aes(x=yearID,y=HR))+
+  geom_point_interactive(data=df, aes(x=yearID, y=HR, tooltip=HR, data_id=yearID))+
+  ggtitle("Hank Aaron Career Homeruns")+
+  ylab("Year")
+
+ggiraph(code=print(g),hover_css = "fill:white; stroke:red")
+```
+
+And another one:
+
+```{r}
+df<-Batting%>%
+  filter(playerID=='bondsba01')%>%
+  select(yearID,HR)
+
+g<-ggplot()+
+  geom_line(data=df, aes(x=yearID,y=HR))+
+  geom_point_interactive(data=df, aes(x=yearID, y=HR, tooltip=HR, data_id=yearID))+
+  ggtitle("Barry Bonds Career Homerun")+
+  ylab("Year")
+
+ggiraph(code=print(g),hover_css = "fill:white; stroke:red")
+```
+

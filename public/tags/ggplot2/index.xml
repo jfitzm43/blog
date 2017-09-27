@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jorgesblog.netlify.com/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://jorgesblog.netlify.com/post/time-series/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/post/time-series/</guid>
+      <description>In this post we will make some time series interactive graphics for some of the best players in the MLB history.
+First we need to load some packages:
+library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)Then we need to extract the data we want to use:
+df&amp;lt;-Batting%&amp;gt;%filter(playerID==&amp;#39;ruthba01&amp;#39;)%&amp;gt;%select(yearID,HR)df## yearID HR## 1 1914 0## 2 1915 4## 3 1916 3## 4 1917 2## 5 1918 11## 6 1919 29## 7 1920 54## 8 1921 59## 9 1922 35## 10 1923 41## 11 1924 46## 12 1925 25## 13 1926 47## 14 1927 60## 15 1928 54## 16 1929 46## 17 1930 49## 18 1931 46## 19 1932 41## 20 1933 34## 21 1934 22## 22 1935 6The last step is to create the interactive visualization:</description>
+    </item>
     
     <item>
       <title>Bar Plots in RStudio</title>
@@ -18,9 +30,9 @@
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/post/bar-plots-in-rstudio/</guid>
-      <description>In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:
+      <description>In this plot we will create an interactive bar plot with the Lahman database, dplyr, ggiraph, and ggplot2:
 First let’s load some packages:
-library(Lahman)library(dplyr)library(ggplot2)Now let’s create a data frame to be able to work with ggplot later.
+library(Lahman)library(dplyr)library(ggplot2)library(ggiraph)Now let’s create a data frame to be able to work with ggplot, and ggiraph later.
 df&amp;lt;-Teams%&amp;gt;%filter(yearID==1980)%&amp;gt;%select(name,HR)%&amp;gt;%arrange(HR)head(df)## name HR## 1 New York Mets 61## 2 San Diego Padres 67## 3 Houston Astros 75## 4 San Francisco Giants 80## 5 Cleveland Indians 89## 6 Chicago White Sox 91The column name is a character, and we need to make it a factor (category) in order to be able to put the bar plot in order:</description>
     </item>
     

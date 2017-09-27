@@ -46,6 +46,99 @@
         
             <article class="post">
     
+<h1><a href="https://jorgesblog.netlify.com/post/time-series/" title="Time Series">Time Series</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.27">2017.09.27</time>
+
+    &middot; Tagged in
+        
+        <a href="https://jorgesblog.netlify.com/tags/filter">filter</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/ggiraph">ggiraph</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/ggplot2">ggplot2</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/select">select</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/str">str</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/geom_line">geom_line</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/geom_point">geom_point</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/timeseries">timeseries</a>
+        
+    
+
+</span>
+</footer>
+
+    <p><p>In this post we will make some time series interactive graphics for some of the best players in the MLB history.
+First we need to load some packages:
+library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+Then we need to extract the data we want to use:
+df&lt;-Batting%&gt;%
+filter(playerID==&#39;ruthba01&#39;)%&gt;%
+select(yearID,HR)
+df</p>
+
+<h2 id="yearid-hr">yearID HR</h2>
+
+<h2 id="1-1914-0">1 1914 0</h2>
+
+<h2 id="2-1915-4">2 1915 4</h2>
+
+<h2 id="3-1916-3">3 1916 3</h2>
+
+<h2 id="4-1917-2">4 1917 2</h2>
+
+<h2 id="5-1918-11">5 1918 11</h2>
+
+<h2 id="6-1919-29">6 1919 29</h2>
+
+<h2 id="7-1920-54">7 1920 54</h2>
+
+<h2 id="8-1921-59">8 1921 59</h2>
+
+<h2 id="9-1922-35">9 1922 35</h2>
+
+<h2 id="10-1923-41">10 1923 41</h2>
+
+<h2 id="11-1924-46">11 1924 46</h2>
+
+<h2 id="12-1925-25">12 1925 25</h2>
+
+<h2 id="13-1926-47">13 1926 47</h2>
+
+<h2 id="14-1927-60">14 1927 60</h2>
+
+<h2 id="15-1928-54">15 1928 54</h2>
+
+<h2 id="16-1929-46">16 1929 46</h2>
+
+<h2 id="17-1930-49">17 1930 49</h2>
+
+<h2 id="18-1931-46">18 1931 46</h2>
+
+<h2 id="19-1932-41">19 1932 41</h2>
+
+<h2 id="20-1933-34">20 1933 34</h2>
+
+<h2 id="21-1934-22">21 1934 22</h2>
+
+<h2 id="22-1935-6">22 1935 6</h2>
+
+<p>The last step is to create the interactive visualization:</p>
+&hellip;</p>
+    <a href="https://jorgesblog.netlify.com/post/time-series/" title="Time Series">Read more &raquo;</a>
+</article>
+
+        
+            <article class="post">
+    
 <h1><a href="https://jorgesblog.netlify.com/post/histograms-in-rstudio/" title="Histograms in RStudio">Histograms in RStudio</a></h1>
 
 <footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.25">2017.09.25</time>

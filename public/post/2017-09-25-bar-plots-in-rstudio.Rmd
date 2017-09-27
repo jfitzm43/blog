@@ -17,7 +17,7 @@ tags:
   - factor
 ---
 
-In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:
+In this plot we will create an interactive bar plot with the Lahman database, dplyr, ggiraph, and ggplot2:
   
 
 First let's load some packages:
@@ -26,9 +26,10 @@ First let's load some packages:
 library(Lahman)
 library(dplyr)
 library(ggplot2)
+library(ggiraph)
 ```
 
-Now let's create a data frame to be able to work with ggplot later.
+Now let's create a data frame to be able to work with ggplot, and ggiraph later.
 
 ```{r}
 df<-Teams%>%
@@ -42,11 +43,11 @@ head(df)
 The column name is a character, and we need to make it a factor (category) in order to be able to put the bar plot in order:
 
 ```{r}
-str(df$name)
+class(df$name)
 
 df$name<-factor(df$name, levels=df$name)
 
-str(df$name)
+class(df$name)
 ```
 
 This is to check that the names are in the order we want it to be:
@@ -55,10 +56,15 @@ This is to check that the names are in the order we want it to be:
 levels(df$name)
 ```
 
-Now we create the bar plot with the following code:
+Now we create the interactive bar plot with the following code:
 
 ```{r}
-ggplot()+
-  geom_bar(data=df,aes(x=name,y=HR),stat="identity",color="blue",fill="white")+
-  coord_flip()
+g<-ggplot()+
+  geom_bar_interactive(data=df, aes(x=name,y=HR, tooltip=HR,data_id=name),stat="identity", color="blue", fill="white")+
+  coord_flip()+
+  ggtitle("1980 Team Homeruns")+
+  ylab("Homeruns")+
+  xlab("Team")
+
+ggiraph(code=print(g),hover_css = "fill:red; stroke:red")
 ```

@@ -33,16 +33,34 @@
     <item>
       <title>Filter</title>
       <link>https://jorgesblog.netlify.com/tags/filter/</link>
-      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Geom_line</title>
+      <link>https://jorgesblog.netlify.com/tags/geom_line/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/geom_line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geom_point</title>
+      <link>https://jorgesblog.netlify.com/tags/geom_point/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/geom_point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ggiraph</title>
       <link>https://jorgesblog.netlify.com/tags/ggiraph/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/ggiraph/</guid>
       <description></description>
@@ -51,7 +69,7 @@
     <item>
       <title>Ggplot2</title>
       <link>https://jorgesblog.netlify.com/tags/ggplot2/</link>
-      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/ggplot2/</guid>
       <description></description>
@@ -69,7 +87,7 @@
     <item>
       <title>Select</title>
       <link>https://jorgesblog.netlify.com/tags/select/</link>
-      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/select/</guid>
       <description></description>
@@ -78,7 +96,7 @@
     <item>
       <title>Str</title>
       <link>https://jorgesblog.netlify.com/tags/str/</link>
-      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/str/</guid>
       <description></description>
@@ -99,6 +117,15 @@
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/summarize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timeseries</title>
+      <link>https://jorgesblog.netlify.com/tags/timeseries/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/timeseries/</guid>
       <description></description>
     </item>
     

@@ -69,12 +69,13 @@
 </span>
 </footer>
 
-    <p><p>In this plot we will create a bar plot with the Lahman database, dplyr, and ggplot2:
+    <p><p>In this plot we will create an interactive bar plot with the Lahman database, dplyr, ggiraph, and ggplot2:
 First let’s load some packages:
 library(Lahman)
 library(dplyr)
 library(ggplot2)
-Now let’s create a data frame to be able to work with ggplot later.
+library(ggiraph)
+Now let’s create a data frame to be able to work with ggplot, and ggiraph later.
 df&lt;-Teams%&gt;%
 filter(yearID==1980)%&gt;%
 select(name,HR)%&gt;%
