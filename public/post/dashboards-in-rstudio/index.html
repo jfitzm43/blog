@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jorge&#39;s Blog</title>
+        <meta name="author">
+        <meta name="description" content="Notes of Data Science Communication and Collaboration Class.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Hugo 0.27.1" />
+        <link href="https://jorgesblog.netlify.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Jorge&#39;s Blog" />
+        <link href="https://jorgesblog.netlify.com/post/index.xml" rel="feed" type="application/rss+xml" title="Jorge&#39;s Blog" />
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://jorgesblog.netlify.com/css/styles.css">
+        <link rel="icon" href="https://jorgesblog.netlify.com/favicon.ico">
+        <link rel="apple-touch-icon" href="https://jorgesblog.netlify.com/apple-touch-icon.png" />
+        <link rel="stylesheet" href="https://jorgesblog.netlify.com/css/highlightjs/monokai.css">
+        <script src="https://jorgesblog.netlify.com/js/vendor/modernizr-2.8.0.min.js"></script>
+        
+        <style>
+        .site-header h2 .logo {
+        background: url(https://jorgesblog.netlify.com/img/earth.jpg) no-repeat 0 0;
+        }
+        @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+          .site-header h2 .logo {
+            background-image: url(https://jorgesblog.netlify.com/img/earth.jpg);
+        }}
+       .site-header {
+         background: #2a373d url(https://jorgesblog.netlify.com/img/earth.jpg) no-repeat center center;
+         z-index: -1;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <header class="site-header">
+          <div class="transparent-layer">
+              <h2>Jorge&#39;s Data Science Blog</h2>
+          </div>
+        </header>
+
+
+<div class="container clearfix">
+    <main role="main" class="content">
+        <article class="post">
+            <a class="btn home" href="https://jorgesblog.netlify.com/" title="Back to home">&laquo; Back to home</a>
+            
+<h1><a href="https://jorgesblog.netlify.com/post/dashboards-in-rstudio/" title="Dashboards in RStudio">Dashboards in RStudio</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.29">2017.09.29</time>
+
+    &middot; Tagged in
+        
+        <a href="https://jorgesblog.netlify.com/tags/filter">filter</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/ggplot2">ggplot2</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/select">select</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/str">str</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/graphics">graphics</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/dplyr">dplyr</a>, 
+        
+        <a href="https://jorgesblog.netlify.com/tags/flexdashboard">flexdashboard</a>
+        
+    
+
+</span>
+</footer>
+
+            <p>This post will be about how to create a dashboard of visualizations in RStudio using dplyr, the Lahman database, ggplot2 for the visualizations, and flexdashboard for creating the dasboard.</p>
+<p>First let’s load some packages:</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(flexdashboard)</code></pre>
+<p>The visualizations we want to put on a dashboard usually has to have something in common, and this is why we chose Babe Ruth to create this dashboard.</p>
+<p>First we need to extract the data I want for this visualization:</p>
+<pre class="r"><code>result&lt;-Batting%&gt;%
+        filter(playerID==&#39;ruthba01&#39;)%&gt;%
+        select(SO,HR,yearID)
+
+result</code></pre>
+<pre><code>##    SO HR yearID
+## 1   4  0   1914
+## 2  23  4   1915
+## 3  23  3   1916
+## 4  18  2   1917
+## 5  58 11   1918
+## 6  58 29   1919
+## 7  80 54   1920
+## 8  81 59   1921
+## 9  80 35   1922
+## 10 93 41   1923
+## 11 81 46   1924
+## 12 68 25   1925
+## 13 76 47   1926
+## 14 89 60   1927
+## 15 87 54   1928
+## 16 60 46   1929
+## 17 61 49   1930
+## 18 51 46   1931
+## 19 62 41   1932
+## 20 90 34   1933
+## 21 63 22   1934
+## 22 24  6   1935</code></pre>
+<p>Then we need to create the visualization.</p>
+<p>The first visualization will be a scatterplot:</p>
+<pre class="r"><code>ggplot()+
+  geom_point(data=result, aes(x=SO,y=HR))+
+  xlab(&quot;Strikeouts&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>The second visualization will be a histogram:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=HR),bins=5, color=&quot;blue&quot;,fill=&quot;white&quot; )+
+  xlab(&quot;Homeruns&quot;)+
+  ylab(&quot;Count&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>The third visualization will be a time series:</p>
+<pre class="r"><code>ggplot()+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  xlab(&quot;Year&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Now we procede to creating the dashboard as an Rmd file with all the visualizations in it. You can see the post to the following link:</p>
+<p><a href="https://jfitzm43.github.io/dashboard/" class="uri">https://jfitzm43.github.io/dashboard/</a></p>
+
+            <ul class="share-buttons">
+    <li>Share this article:</li>
+    <li>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjorgesblog.netlify.com%2fpost%2fdashboards-in-rstudio%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
+    </li>
+    <li>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Dashboards%20in%20RStudio&amp;url=https%3a%2f%2fjorgesblog.netlify.com%2fpost%2fdashboards-in-rstudio%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
+    </li>
+    <li>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fjorgesblog.netlify.com%2fpost%2fdashboards-in-rstudio%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
+    </li>
+    <li>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fjorgesblog.netlify.com%2fpost%2fdashboards-in-rstudio%2f&title=Dashboards%20in%20RStudio" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
+    </li>
+</ul>
+
+        </article>
+        
+    </main>
+    <aside class="author">
+  <img class="profile-image" src="https://jorgesblog.netlify.com/img/profile.jpg" alt="Jorge Fitzmaurice Torres" style="width:150px;height:150px;" />
+  <p class="name">by 
+  <strong>Jorge Fitzmaurice Torres</strong></p>
+  <p class="address">Erie, PA</p>
+  <p class="link"></p>
+  <ul class="social">
+    
+<li><a href="//twitter.com/pichif" class="icon-twitter" target="_blank" title="Twitter"></a></li>
+
+
+
+<li><a href="//facebook.com/pichi.fitzmaurice" class="icon-facebook-squared" target="_blank" title="Facebook"></a></li>
+
+
+
+<li><a href="//linkedin.com/in/jorge-fitzmaurice-torres-279b22131" class="icon-linkedin" target="_blank" title="Linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//github.com/jfitzm43" class="icon-github" target="_blank" title="Github"></a></li>
+
+
+
+
+
+
+  </ul>
+  <br><br>
+</aside>
+
+</div>
+
+<footer class="main-footer">
+  <div class="container clearfix">
+        <a class="icon-rss" href="https://jorgesblog.netlify.com/post/index.xml" title="RSS"></a>
+        <p>&copy; 2017 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>window.jQuery || document.write('<script src="https:\/\/jorgesblog.netlify.com\/js\/vendor\/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="https://jorgesblog.netlify.com/js/plugins.js"></script>
+
+
+
+
+</body>
+</html>
+

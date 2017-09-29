@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jorgesblog.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dashboards in RStudio</title>
+      <link>https://jorgesblog.netlify.com/post/dashboards-in-rstudio/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/post/dashboards-in-rstudio/</guid>
+      <description>This post will be about how to create a dashboard of visualizations in RStudio using dplyr, the Lahman database, ggplot2 for the visualizations, and flexdashboard for creating the dasboard.
+First let’s load some packages:
+library(Lahman)library(dplyr)library(ggplot2)library(flexdashboard)The visualizations we want to put on a dashboard usually has to have something in common, and this is why we chose Babe Ruth to create this dashboard.
+First we need to extract the data I want for this visualization:</description>
+    </item>
     
     <item>
       <title>Time Series</title>

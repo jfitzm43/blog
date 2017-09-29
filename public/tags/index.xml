@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Dplyr</title>
+      <link>https://jorgesblog.netlify.com/tags/dplyr/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Factor</title>
       <link>https://jorgesblog.netlify.com/tags/factor/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
@@ -33,9 +42,18 @@
     <item>
       <title>Filter</title>
       <link>https://jorgesblog.netlify.com/tags/filter/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flexdashboard</title>
+      <link>https://jorgesblog.netlify.com/tags/flexdashboard/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/flexdashboard/</guid>
       <description></description>
     </item>
     
@@ -69,9 +87,18 @@
     <item>
       <title>Ggplot2</title>
       <link>https://jorgesblog.netlify.com/tags/ggplot2/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://jorgesblog.netlify.com/tags/graphics/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/tags/graphics/</guid>
       <description></description>
     </item>
     
@@ -87,7 +114,7 @@
     <item>
       <title>Select</title>
       <link>https://jorgesblog.netlify.com/tags/select/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/select/</guid>
       <description></description>
@@ -96,7 +123,7 @@
     <item>
       <title>Str</title>
       <link>https://jorgesblog.netlify.com/tags/str/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/tags/str/</guid>
       <description></description>

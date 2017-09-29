@@ -1,0 +1,79 @@
+---
+title: Dashboards in RStudio
+author: Jorge Fitzmaurice Torres
+date: '2017-09-29'
+slug: dashboards-in-rstudio
+categories:
+  - Lahman
+  - RStudio
+  - dashboards
+tags:
+  - filter
+  - ggplot2
+  - select
+  - str
+  - graphics
+  - dplyr
+  - flexdashboard
+---
+
+
+
+<p>This post will be about how to create a dashboard of visualizations in RStudio using dplyr, the Lahman database, ggplot2 for the visualizations, and flexdashboard for creating the dasboard.</p>
+<p>First let’s load some packages:</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)
+library(ggplot2)
+library(flexdashboard)</code></pre>
+<p>The visualizations we want to put on a dashboard usually has to have something in common, and this is why we chose Babe Ruth to create this dashboard.</p>
+<p>First we need to extract the data I want for this visualization:</p>
+<pre class="r"><code>result&lt;-Batting%&gt;%
+        filter(playerID==&#39;ruthba01&#39;)%&gt;%
+        select(SO,HR,yearID)
+
+result</code></pre>
+<pre><code>##    SO HR yearID
+## 1   4  0   1914
+## 2  23  4   1915
+## 3  23  3   1916
+## 4  18  2   1917
+## 5  58 11   1918
+## 6  58 29   1919
+## 7  80 54   1920
+## 8  81 59   1921
+## 9  80 35   1922
+## 10 93 41   1923
+## 11 81 46   1924
+## 12 68 25   1925
+## 13 76 47   1926
+## 14 89 60   1927
+## 15 87 54   1928
+## 16 60 46   1929
+## 17 61 49   1930
+## 18 51 46   1931
+## 19 62 41   1932
+## 20 90 34   1933
+## 21 63 22   1934
+## 22 24  6   1935</code></pre>
+<p>Then we need to create the visualization.</p>
+<p>The first visualization will be a scatterplot:</p>
+<pre class="r"><code>ggplot()+
+  geom_point(data=result, aes(x=SO,y=HR))+
+  xlab(&quot;Strikeouts&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>The second visualization will be a histogram:</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=HR),bins=5, color=&quot;blue&quot;,fill=&quot;white&quot; )+
+  xlab(&quot;Homeruns&quot;)+
+  ylab(&quot;Count&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>The third visualization will be a time series:</p>
+<pre class="r"><code>ggplot()+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  xlab(&quot;Year&quot;)+
+  ylab(&quot;Homeruns&quot;)</code></pre>
+<p><img src="/post/2017-09-29-dashboards-in-rstudio_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Now we procede to creating the dashboard as an Rmd file with all the visualizations in it. You can see the post to the following link:</p>
+<p><a href="https://jfitzm43.github.io/dashboard/" class="uri">https://jfitzm43.github.io/dashboard/</a></p>

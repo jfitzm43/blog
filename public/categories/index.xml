@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Dashboards</title>
+      <link>https://jorgesblog.netlify.com/categories/dashboards/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jorgesblog.netlify.com/categories/dashboards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dplyr</title>
       <link>https://jorgesblog.netlify.com/categories/dplyr/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
@@ -41,7 +50,7 @@
     <item>
       <title>Lahman</title>
       <link>https://jorgesblog.netlify.com/categories/lahman/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/categories/lahman/</guid>
       <description></description>
@@ -59,7 +68,7 @@
     <item>
       <title>Rstudio</title>
       <link>https://jorgesblog.netlify.com/categories/rstudio/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jorgesblog.netlify.com/categories/rstudio/</guid>
       <description></description>
